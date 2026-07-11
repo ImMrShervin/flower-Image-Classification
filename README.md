@@ -130,23 +130,10 @@ The designed CNN model includes 4 convolutional blocks:
 
 With default settings and 30 epochs of training, the model usually reaches **80-88%** accuracy on validation data.
 
-## Result Screenshots
-
-### Examples of prediction results
 ![Prediction Result](screenshots/prediction_result.png)
 
-### Dashboard
+
 ![Prediction Result](screenshots/prediction_result2.png)
 
-
-## 💡 Tips and Improvements
-
-To improve the model accuracy, you can:
-
-1. **Transfer Learning**: Use pre-trained models like `VGG16`, `ResNet50`, or `EfficientNet`
-2. **Data Augmentation**: Use larger dataset or stronger augmentation
-3. **Hyperparameter Tuning**: Change learning rate, batch size, etc.
-4. **Deeper Architecture**: Add more layers
-5. **Ensemble Learning**: Combine multiple models
 
 ⭐ If this project was useful to you, please give it a star!
